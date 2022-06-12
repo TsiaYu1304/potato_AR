@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA4D3B52855EA43008423CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3B42855EA43008423CB /* AppDelegate.swift */; };
+		6FA4D3B72855EA43008423CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3B62855EA43008423CB /* ContentView.swift */; };
+		6FA4D3B92855EA43008423CB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3B82855EA43008423CB /* Experience.rcproject */; };
+		6FA4D3BB2855EA46008423CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA4D3BA2855EA46008423CB /* Assets.xcassets */; };
+		6FA4D3BE2855EA46008423CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA4D3BD2855EA46008423CB /* Preview Assets.xcassets */; };
+		6FA4D3C82855EA46008423CB /* potato_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3C72855EA46008423CB /* potato_ARTests.swift */; };
+		6FA4D3D22855EA46008423CB /* potato_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3D12855EA46008423CB /* potato_ARUITests.swift */; };
+		6FA4D3D42855EA46008423CB /* potato_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4D3D32855EA46008423CB /* potato_ARUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FA4D3C42855EA46008423CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA4D3A92855EA43008423CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA4D3B02855EA43008423CB;
+			remoteInfo = potato_AR;
+		};
+		6FA4D3CE2855EA46008423CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA4D3A92855EA43008423CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA4D3B02855EA43008423CB;
+			remoteInfo = potato_AR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FA4D3B12855EA43008423CB /* potato_AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = potato_AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA4D3B42855EA43008423CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FA4D3B62855EA43008423CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FA4D3B82855EA43008423CB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		6FA4D3BA2855EA46008423CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA4D3BD2855EA46008423CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FA4D3C32855EA46008423CB /* potato_ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = potato_ARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA4D3C72855EA46008423CB /* potato_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potato_ARTests.swift; sourceTree = "<group>"; };
+		6FA4D3CD2855EA46008423CB /* potato_ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = potato_ARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA4D3D12855EA46008423CB /* potato_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potato_ARUITests.swift; sourceTree = "<group>"; };
+		6FA4D3D32855EA46008423CB /* potato_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potato_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA4D3AE2855EA43008423CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3C02855EA46008423CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3CA2855EA46008423CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA4D3A82855EA43008423CB = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3B32855EA43008423CB /* potato_AR */,
+				6FA4D3C62855EA46008423CB /* potato_ARTests */,
+				6FA4D3D02855EA46008423CB /* potato_ARUITests */,
+				6FA4D3B22855EA43008423CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA4D3B22855EA43008423CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3B12855EA43008423CB /* potato_AR.app */,
+				6FA4D3C32855EA46008423CB /* potato_ARTests.xctest */,
+				6FA4D3CD2855EA46008423CB /* potato_ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA4D3B32855EA43008423CB /* potato_AR */ = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3B42855EA43008423CB /* AppDelegate.swift */,
+				6FA4D3B62855EA43008423CB /* ContentView.swift */,
+				6FA4D3B82855EA43008423CB /* Experience.rcproject */,
+				6FA4D3BA2855EA46008423CB /* Assets.xcassets */,
+				6FA4D3BC2855EA46008423CB /* Preview Content */,
+			);
+			path = potato_AR;
+			sourceTree = "<group>";
+		};
+		6FA4D3BC2855EA46008423CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3BD2855EA46008423CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FA4D3C62855EA46008423CB /* potato_ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3C72855EA46008423CB /* potato_ARTests.swift */,
+			);
+			path = potato_ARTests;
+			sourceTree = "<group>";
+		};
+		6FA4D3D02855EA46008423CB /* potato_ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA4D3D12855EA46008423CB /* potato_ARUITests.swift */,
+				6FA4D3D32855EA46008423CB /* potato_ARUITestsLaunchTests.swift */,
+			);
+			path = potato_ARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA4D3B02855EA43008423CB /* potato_AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA4D3D72855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_AR" */;
+			buildPhases = (
+				6FA4D3AD2855EA43008423CB /* Sources */,
+				6FA4D3AE2855EA43008423CB /* Frameworks */,
+				6FA4D3AF2855EA43008423CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = potato_AR;
+			productName = potato_AR;
+			productReference = 6FA4D3B12855EA43008423CB /* potato_AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FA4D3C22855EA46008423CB /* potato_ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA4D3DA2855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_ARTests" */;
+			buildPhases = (
+				6FA4D3BF2855EA46008423CB /* Sources */,
+				6FA4D3C02855EA46008423CB /* Frameworks */,
+				6FA4D3C12855EA46008423CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA4D3C52855EA46008423CB /* PBXTargetDependency */,
+			);
+			name = potato_ARTests;
+			productName = potato_ARTests;
+			productReference = 6FA4D3C32855EA46008423CB /* potato_ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FA4D3CC2855EA46008423CB /* potato_ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA4D3DD2855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_ARUITests" */;
+			buildPhases = (
+				6FA4D3C92855EA46008423CB /* Sources */,
+				6FA4D3CA2855EA46008423CB /* Frameworks */,
+				6FA4D3CB2855EA46008423CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA4D3CF2855EA46008423CB /* PBXTargetDependency */,
+			);
+			name = potato_ARUITests;
+			productName = potato_ARUITests;
+			productReference = 6FA4D3CD2855EA46008423CB /* potato_ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA4D3A92855EA43008423CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6FA4D3B02855EA43008423CB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6FA4D3C22855EA46008423CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6FA4D3B02855EA43008423CB;
+					};
+					6FA4D3CC2855EA46008423CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6FA4D3B02855EA43008423CB;
+					};
+				};
+			};
+			buildConfigurationList = 6FA4D3AC2855EA43008423CB /* Build configuration list for PBXProject "potato_AR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA4D3A82855EA43008423CB;
+			productRefGroup = 6FA4D3B22855EA43008423CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA4D3B02855EA43008423CB /* potato_AR */,
+				6FA4D3C22855EA46008423CB /* potato_ARTests */,
+				6FA4D3CC2855EA46008423CB /* potato_ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA4D3AF2855EA43008423CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA4D3BE2855EA46008423CB /* Preview Assets.xcassets in Resources */,
+				6FA4D3BB2855EA46008423CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3C12855EA46008423CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3CB2855EA46008423CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA4D3AD2855EA43008423CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA4D3B72855EA43008423CB /* ContentView.swift in Sources */,
+				6FA4D3B52855EA43008423CB /* AppDelegate.swift in Sources */,
+				6FA4D3B92855EA43008423CB /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3BF2855EA46008423CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA4D3C82855EA46008423CB /* potato_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D3C92855EA46008423CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA4D3D42855EA46008423CB /* potato_ARUITestsLaunchTests.swift in Sources */,
+				6FA4D3D22855EA46008423CB /* potato_ARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FA4D3C52855EA46008423CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA4D3B02855EA43008423CB /* potato_AR */;
+			targetProxy = 6FA4D3C42855EA46008423CB /* PBXContainerItemProxy */;
+		};
+		6FA4D3CF2855EA46008423CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA4D3B02855EA43008423CB /* potato_AR */;
+			targetProxy = 6FA4D3CE2855EA46008423CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FA4D3D52855EA46008423CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FA4D3D62855EA46008423CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA4D3D82855EA46008423CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"potato_AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FA4D3D92855EA46008423CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"potato_AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FA4D3DB2855EA46008423CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potato_AR.app/potato_AR";
+			};
+			name = Debug;
+		};
+		6FA4D3DC2855EA46008423CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potato_AR.app/potato_AR";
+			};
+			name = Release;
+		};
+		6FA4D3DE2855EA46008423CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = potato_AR;
+			};
+			name = Debug;
+		};
+		6FA4D3DF2855EA46008423CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 434J59NFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.potato-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = potato_AR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA4D3AC2855EA43008423CB /* Build configuration list for PBXProject "potato_AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4D3D52855EA46008423CB /* Debug */,
+				6FA4D3D62855EA46008423CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA4D3D72855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4D3D82855EA46008423CB /* Debug */,
+				6FA4D3D92855EA46008423CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA4D3DA2855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4D3DB2855EA46008423CB /* Debug */,
+				6FA4D3DC2855EA46008423CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA4D3DD2855EA46008423CB /* Build configuration list for PBXNativeTarget "potato_ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4D3DE2855EA46008423CB /* Debug */,
+				6FA4D3DF2855EA46008423CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA4D3A92855EA43008423CB /* Project object */;
+}
