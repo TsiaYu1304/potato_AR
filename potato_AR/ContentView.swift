@@ -89,6 +89,7 @@ struct ARViewContainer: UIViewRepresentable {
     
 }
 
+    // 選單選擇要放置的模型
 struct ModelPickerView:View{
     @Binding var isPlacementEnable:Bool
     @Binding var selectedModel:Model?
@@ -123,7 +124,8 @@ struct ModelPickerView:View{
         
     }
 }
-
+    
+//確認或取消放置
     struct PlacementButtonsView:View{
         @Binding var isPlacementEnable:Bool
         @Binding var selectedModel:Model?
